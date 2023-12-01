@@ -19,4 +19,8 @@ apnList:
       sd: "0x111111"
     emergency: false
 
+<<<<<<< HEAD
 nodeSelector: {eks.amazonaws.com/nodegroup: ues}
+=======
+nodeSelector: {eks.amazonaws.com/nodegroup: ues}
+>>>>>>> main
