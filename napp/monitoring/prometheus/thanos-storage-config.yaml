@@ -1,0 +1,7 @@
+type: s3
+config:
+  bucket: ${{ secrets.BUCKET_NAME }}
+  endpoint: ${{ secrets.S3_ENDPOINT }}
+  access_key: ${{ secrets.S3_ACCESS_KEY }}
+  secret_key: ${{ secrets.S3_SECRET_KEY }}
+prefix: prometheus-metrics/cluster_name
